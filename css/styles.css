@@ -510,6 +510,24 @@ img {
   }
 }
 
+.text-wrapper {
+  text-align: end;
+}
+.contact-us_title {
+  padding-bottom: 10px;
+  font-size: 28px;
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-us_title {
+    font-size: 32px;
+  }
+}
+
+.contact-us_text {
+  padding-bottom: 10px;
+}
+
 .label-wrap {
   display: block;
 }
