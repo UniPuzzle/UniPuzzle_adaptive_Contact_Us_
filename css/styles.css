@@ -493,6 +493,8 @@ img {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -551,7 +553,7 @@ label {
 }
 @media screen and (min-width: 480px) {
   label {
-    margin-left: 22%;
+    margin-left: 20%;
   }
 }
 @media screen and (min-width: 640px) {
@@ -572,7 +574,7 @@ textarea {
   input,
   textarea {
     width: 60%;
-    margin-left: 22%;
+    margin-left: 20%;
   }
 }
 
@@ -697,6 +699,40 @@ textarea:-webkit-autofill:focus {
   -webkit-text-fill-color: #2a293e;
   -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
   transition: background-color 5000s ease-in-out 0s;
+}
+
+.line-or {
+  width: 100%;
+  position: relative;
+  /* margin-left: auto; */
+  padding-top: 10px;
+  /* margin-right: 145px; */
+}
+
+@media screen and (min-width: 480px) {
+  .line-or {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .line-or {
+    width: 50%;
+  }
+}
+
+.text1 {
+  position: absolute;
+  left: 45%;
+  top: 10px;
+  background: #fff;
+  padding: 0 10px;
+}
+.plug {
+  width: 80px;
+  margin-right: 15px;
 }
 
 /* =============footer-mobile============== */
