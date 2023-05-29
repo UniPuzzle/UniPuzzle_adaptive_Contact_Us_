@@ -622,7 +622,7 @@ textarea {
   margin-right: 15px;
 }
 
-.button {
+.button-send {
   width: 100%;
   display: block;
   margin-top: 20px;
@@ -664,25 +664,23 @@ textarea {
     rgba(244, 244, 244, 1) 0%,
     rgba(230, 230, 230, 1) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#e6e6e6', GradientType=0 );
 }
 
 @media screen and (min-width: 480px) {
-  .button {
+  .button-send {
     width: 60%;
   }
 }
 
 @media screen and (min-width: 640px) {
-  .button {
+  .button-send {
     width: 50%;
   }
 }
 
-button:hover {
-  background: inherit;
-  color: #f45702;
-  border-bottom: 2px solid #f45702;
+.button-send:hover {
+  cursor: pointer;
+  background: #ccc;
 }
 
 ::selection {
